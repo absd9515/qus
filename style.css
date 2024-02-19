@@ -1,9 +1,7 @@
-html, body{
-  min-height: 100%;
-  margin:0;
-  padding:0;
-}
-
-hl, p{
-  margin:0;
+html { background-color: #000; } 
+body {
+    min-height: 100vh;
+    max-width: 400px;
+    background-color: papayawhip; 
+    margin: 0 auto;
 }
