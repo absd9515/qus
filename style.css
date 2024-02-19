@@ -1,8 +1,11 @@
-html, body{
-  margin:0;
-  padding:0;
+html, body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
 }
 
-hl, p{
-  margin:0;
+body {
+  height: 100vh;
 }
