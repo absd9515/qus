@@ -1,14 +1,3 @@
-html, body {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  overflow: hidden;
-}
-
-body {
-  height: 100vh;
-}
 html, body{
   margin:0;
   padding:0;
@@ -16,4 +5,7 @@ html, body{
 
 hl, p{
   margin:0;
+}
+body {
+  pointer-events: none;
 }
